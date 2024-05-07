@@ -1,6 +1,7 @@
 name: "Libp2p <-> WS Proxy"
 description: "Add-on to run Libp2p-ws proxy"
 version: "0.0.1"
+url: https://github.com/PinoutLTD/addon-libp2p-ws-proxy
 slug: "libp2p-proxy"
 init: false
 arch:
