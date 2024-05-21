@@ -1,6 +1,6 @@
 name: "Libp2p <-> WS Proxy"
 description: "Add-on to run Libp2p-ws proxy"
-version: "0.0.1"
+version: "1.0.0"
 url: https://github.com/PinoutLTD/addon-libp2p-ws-proxy
 slug: "libp2p-proxy"
 init: false
@@ -14,4 +14,4 @@ startup: services
 ports:
   8888/tcp: 8888
   9999/tcp: 9999
-image: ghcr.io/pinoutltd/libp2p-ws-proxy-{arch}
+image: ghcr.io/pinoutltd/addon-libp2p-ws-proxy-{arch}
